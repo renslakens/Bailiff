@@ -1,16 +1,16 @@
-#Rules
+# Main information about the game
 
 Amount of players: 2
 
 Main goal:
 Get the Bailiff to your side of the board.
 
-##Regels:
+## Rules:
 
 Every player has 5 pieces. The pieces can go in all directions move and have to go that far to be possible.
 Movements are only stopped by the edges of the board or another pawn.
 
-###The game runs like follows:
+### The game runs like follows:
 
 1) The first player moves the bailiff
 
@@ -23,7 +23,7 @@ Movements are only stopped by the edges of the board or another pawn.
 The game ends when one of the players the bailiff to has brought his camp.
 
 
-#How to set up
+# How to set up
 
 ## Available Scripts
 
