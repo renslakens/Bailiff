@@ -1,0 +1,24 @@
+.cell {
+  border: 2px solid black;
+	width:70px;
+	height:70px;
+	float:left;
+	background:#E7A56B;
+	color:#000;
+	margin:0 -1px -1px 0;
+}
+
+.cell:hover {
+  opacity: 0.8;
+}
+
+#board {
+  margin-top: 2rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
