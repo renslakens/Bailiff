@@ -18,7 +18,7 @@ function InitFilesRanksBrd() {
   }
 
   for(rank = RANKS.RANK_1; rank <= RANKS.RANK_5; ++rank) {
-    for(file = FILES.FILE_1; rank <= FILES.FILE_E; ++file) {
+    for(file = FILES.FILE_1; file <= FILES.FILE_E; ++file) {
       sq = FR2SQ(file,rank);
       FilesBrd[sq] = file;
       RanksBrd[sq] = rank;
@@ -27,7 +27,7 @@ function InitFilesRanksBrd() {
 
   console.log("FilesBrd[0]:" + FilesBrd[0] + " RanksBrd[0]:" + RanksBrd[0]);
   console.log("FilesBrd[SQUARES.A1]:" + FilesBrd[SQUARES.A1] + " RanksBrd[SQUARES.A1]:" + RanksBrd[SQUARES.A1]);
-  //console.log("FilesBrd[SQUARES.C5]:" + FilesBrd[SQUARES.C5] + " RanksBrd[SQUARES.C5]:" + RanksBrd[SQUARES.C5]);
+  console.log("FilesBrd[SQUARES.C5]:" + FilesBrd[SQUARES.C5] + " RanksBrd[SQUARES.C5]:" + RanksBrd[SQUARES.C5]);
   console.log(FilesBrd);
   console.log(RanksBrd);
 
