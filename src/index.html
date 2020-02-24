@@ -6,10 +6,20 @@
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <link rel="stylesheet" href="style.css">
     <title>Bailiff</title>
+    <script type="text/javascript">// if(!window.console) console = {log: function() {}}; </script>
   </head>
   <body>
-    <table id="board"></table>
-    <button id="new-game">New Game</button>
-    <script type="text/javascript" src="script.js"></script>
+    <header>
+      <h3>JS Bailiff</h3>
+    </header>
+    <div id="FenInDiv">
+      Fen:<br/>
+      <input type="text" id="fenIn"/>
+      <button type="button" id="SetFen">Set Position</button>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/defs.js"></script>
   </body>
 </html>
